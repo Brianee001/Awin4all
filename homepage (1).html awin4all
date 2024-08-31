@@ -1,0 +1,65 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awin 4all</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #AFD5EB, #F04520, #EF869C, #1073E5);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.1;
+            z-index: -1;
+        }
+        .button {
+            background-color: #F04520;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .telegram-button {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url('https://logos-world.net/wp-content/uploads/2021/03/Telegram-Logo-2019-present.jpg') no-repeat center;
+            width: 50px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="content://com.android.chrome.FileProvider/images/screenshot/1724852516548-973264395.png" class="watermark" alt="Awin 4all Logo">
+    <div>
+        <h1>Welcome to Awin 4all</h1>
+        <p>Your home of seamless earning opportunities. Earn through social media tasks, surveys, and referrals.</p>
+        <p>Membership plans:</p>
+        <ul>
+            <li>Basic: $500</li>
+            <li>Starter: $750</li>
+            <li>Pro: $1000</li>
+            <li>Business: $1500</li>
+        </ul>
+        <p>Higher plans yield more earnings. Enjoy daily cash spins!</p>
+        <p>What are you waiting for? Click <button class="button">Sign Up</button> or <button class="button">Sign In</button>.</p>
+        <p>Happy earnings!</p>
+    </div>
+    <a href="https://t.me/Awin4all" class="telegram-button"></a>
+</body>
+</html>
